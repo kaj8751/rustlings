@@ -8,7 +8,9 @@
 // I AM NOT DONE
 
 struct ColorClassicStruct {
-    // TODO: Something goes here
+    green: i32, 
+    red: i32, 
+    blue: i32,    
 }
 
 struct ColorTupleStruct(/* TODO: Something goes here */);
@@ -23,8 +25,7 @@ mod tests {
     #[test]
     fn classic_c_structs() {
         // TODO: Instantiate a classic c struct!
-        // let green =
-
+        let green = ColorClassicStruct{green: 0, red: 255, blue: 0};
         assert_eq!(green.red, 0);
         assert_eq!(green.green, 255);
         assert_eq!(green.blue, 0);
